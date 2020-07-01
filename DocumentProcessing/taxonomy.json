@@ -13,10 +13,77 @@
       },
       "Fields": [
         {
+          "FieldId": "Finance.Dokument.Rechnung.Betrag",
+          "FieldName": "Betrag",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Finance.Dokument.Rechnung.MwST",
+          "FieldName": "MwST",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Finance.Dokument.Rechnung.Anschrift",
+          "FieldName": "Anschrift",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
           "FieldId": "Finance.Dokument.Rechnung.Header",
           "FieldName": "Header",
           "IsMultiValue": false,
           "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Finance.Dokument.Bestellung",
+      "Group": "Finance",
+      "Category": "Dokument",
+      "Name": "Bestellung",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Finance.Dokument.Bestellung.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Finance.Dokument.Bestellung.Adresse",
+          "FieldName": "Adresse",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Finance.Dokument.Bestellung.MwSt",
+          "FieldName": "MwSt",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Finance.Dokument.Bestellung.Betrag",
+          "FieldName": "Betrag",
+          "IsMultiValue": false,
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": []

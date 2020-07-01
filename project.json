@@ -6,6 +6,7 @@
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.IntelligentOCR.Activities": "[4.7.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
+    "UiPath.Persistence.Activities": "[1.1.4]",
     "UiPath.System.Activities": "[20.6.1-preview]",
     "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
   },
