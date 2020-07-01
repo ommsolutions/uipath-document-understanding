@@ -19,7 +19,7 @@
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
-    "supportsPersistence": false,
+    "supportsPersistence": true,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
